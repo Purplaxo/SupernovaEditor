@@ -1,7 +1,7 @@
 ⚠️ **SEGA has banned the usage of unofficial apps in favor of the in-game Editor. Posting any content on the internet is taken at your own risk.** (I am not affiliated with SEGA, Colorful Palette or Crypton Future Media)
 
 # Supernova Editor
-A VSRG chart editor based on LOVE2D
+A VSRG chart editor built on the LOVE2D framework.
 
 <img width="800" height="493" alt="Gif showcasing the editor and the preview." src="https://github.com/user-attachments/assets/a59c5b6c-0156-4ec7-a5cd-44c66106291a" />
 
@@ -34,12 +34,17 @@ Supported/Planned features:
 
 <img width="1280" height="858" alt="Image showcasing the editor and the preview." src="https://github.com/user-attachments/assets/b05e3c98-49c2-4ea6-85e7-1f70219dd7c1" />
 
-## SV Keyframes
+### SV Keyframes
 These function like timescale markers, although they have a few major differences. You can place multiple keyframes on the span of 6 lanes. Another difference is the fact that you can click and drag upwards to create a "long" keyframe, which will interpolate the sv value (by whatever easing you choose). How it works is whatever value you input into the long keyframe will be the *end* value. The *start* value is the value that was before.
 
 <img width="427" height="304" alt="image" src="https://github.com/user-attachments/assets/0827b1c0-6c4d-4106-8bec-738838388d40" />
 
 The image above has a SV change to 0.5x, which will be instant (exactly like normal timescale marker). Then from the starting point of the long keyframe, it will interpolate from 0.5x to 1.0x. Since no filetypes support long keyframes, the editor automatically can convert keyframes to markers (you can select the division too)
+
+### Compatibility Warning Mode (beta)
+Warns the user if there are any objects in the chart that are unsupported by the filetype the user wants to export.
+
+<img width="1278" height="856" alt="image" src="https://github.com/user-attachments/assets/e5e13065-4c92-4445-8b75-1b20e5103551" />
 
 # Downloads
 
@@ -48,7 +53,7 @@ The image above has a SV change to 0.5x, which will be instant (exactly like nor
 
 You can find download files in [Releases](https://github.com/Purplaxo/SupernovaEditor/releases)
 
-## Modding
+### Modding
 
 > I'm not allowing any Lua code in this repository to be copied, modified, distributed, or used to create derivative works by anyone, unless i say otherwise. This will probably change in the future.
 > Although i grant permission to modify/replace assets (files ending in: .png .txt .scp .ttf .otf .mp3).
