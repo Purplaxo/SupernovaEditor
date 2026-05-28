@@ -49,7 +49,7 @@ Warns the user if there are any objects in the chart that are unsupported by the
 
 # Downloads
 
-⚠️ **Warning**: This tool is in its early stages of development. If you experience any bugs, please report them here.
+⚠️ **Warning**: This tool is in its early stages of development. If you experience any bugs, please report them [here](https://github.com/Purplaxo/SupernovaEditor/issues).
 > This tool was __partially__ assisted by AI for very obscure and time consuming tasks. If you don't like it, don't use it. Nobody is forcing you to. (its not like i can even do anything with free tiers lmao)
 
 You can find download files in [Releases](https://github.com/Purplaxo/SupernovaEditor/releases)
@@ -59,7 +59,7 @@ You can find download files in [Releases](https://github.com/Purplaxo/SupernovaE
 > I'm not allowing any Lua code in this repository to be copied, modified, distributed, or used to create derivative works by anyone, unless i say otherwise. This will probably change in the future.
 > Although i grant permission to modify/replace assets (files ending in: .png .txt .scp .ttf .otf .mp3).
 
-I'm open to adding suggestions.
+I'm open to adding suggestions. Create them [here](https://github.com/Purplaxo/SupernovaEditor/issues) with the suggestions tag.
 
 ### Other
 
