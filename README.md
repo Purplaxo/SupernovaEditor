@@ -16,6 +16,8 @@ Supported/Planned features:
 - [x] Skill/Fever events
 - [x] Dynamic Stages
 - [ ] Dynamic Stages (for preview)
+- [ ] Changing Note SFX
+- [ ] Custom Hold mids
 - [ ] Mobile support
 - [ ] Performance improvements
 - [ ] Better particles (3D)
@@ -34,5 +36,5 @@ You can find download files in [Releases](https://github.com/Purplaxo/SupernovaE
 > I'm not allowing any Lua code in this repository to be copied, modified, distributed, or used to create derivative works by anyone, unless i say otherwise. This will probably change in the future.
 > Although i grant permission to modify/replace assets (files ending in: .png .txt .scp .ttf .otf .mp3).
 
-I'm open to suggestions.
+I'm open to adding suggestions.
 
