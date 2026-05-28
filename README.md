@@ -50,6 +50,10 @@ Warns the user if there are any objects in the chart that are unsupported by the
 
 <img width="1278" height="856" alt="image" src="https://github.com/user-attachments/assets/e5e13065-4c92-4445-8b75-1b20e5103551" />
 
+### Keybinds
+
+Full list of keybinds are found in the editor settings. A few actions are keybind-only, such as changing division, song speed or adjusting note size.
+
 # Downloads
 
 ⚠️ **Warning**: This tool is in its early stages of development. If you experience any bugs, please report them [here](https://github.com/Purplaxo/SupernovaEditor/issues).
