@@ -16,6 +16,7 @@ Supported/Planned features:
 - [x] Layers
 - [x] Combo Text
 - [x] Extended features
+- [x] Downwards Flicks
 - [x] Skill/Fever events
 - [x] Dynamic Stages
 - [ ] Dynamic Stages (for preview)
@@ -29,6 +30,8 @@ Supported/Planned features:
 - [ ] Better user particle editing
 - [ ] More customization
 - [ ] Exporting long SV's with easings instead of keyframe spam
+- [ ] Support for unchmmws & ccmmws
+- [ ] Chart Cyanvas guides (specifically Fade-In/Fade-Out/No Fade)
 - [ ] (Possible script macros?)
 - [ ] Open source (with an open modding license)
 
@@ -65,4 +68,4 @@ I'm open to adding suggestions. Create them [here](https://github.com/Purplaxo/S
 
 > If i haven't credited someone - sorry, please inform me.
 
-> I have not copied any code from any other tools, only used mmw as reference (with Crash5b's permission).
+> I have not copied any code from any other tools, only used mmw as reference for a few things (with Crash5b's permission).
