@@ -61,6 +61,12 @@ Full list of keybinds are found in the editor settings. A few actions are keybin
 
 You can find download files in [Releases](https://github.com/Purplaxo/SupernovaEditor/releases)
 
+Linux needs to do some terminal shenanigans:
+- `chmod +x /path/to/appimage`
+- if opening the file doesnt work, run the appimage through the terminal
+- if THAT doesn't work, install love2d systemwide and run `love /path/to/appimage` (Love is bundled in the appimage though)
+I'm not sure about these steps since i haven't tested this on my own (i don't have linux). If you find an easier way of opening this editor, let me know.
+
 ### Modding
 
 > I'm not allowing any Lua code in this repository to be copied, modified, distributed, or used to create derivative works by anyone, unless i say otherwise. This will probably change in the future.
