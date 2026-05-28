@@ -26,6 +26,7 @@ Supported/Planned features:
 - [ ] Mobile support
 - [ ] Performance improvements
 - [ ] Better particles (3D)
+- [ ] Better user particle editing
 - [ ] More customization
 - [ ] Exporting long SV's with easings instead of keyframe spam
 - [ ] (Possible script macros?)
@@ -60,3 +61,8 @@ You can find download files in [Releases](https://github.com/Purplaxo/SupernovaE
 
 I'm open to adding suggestions.
 
+### Other
+
+> If i haven't credited someone - sorry, please inform me.
+
+> I have not copied any code from any other tools, only used mmw as reference (with Crash5b's permission).
