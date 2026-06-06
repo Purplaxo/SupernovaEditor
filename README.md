@@ -18,9 +18,11 @@ Supported/Planned features:
 - [x] Extended features
 - [x] Downwards Flicks
 - [x] Skill/Fever events
+- [x] Chart Cyanvas guides (specifically Fade-In/Fade-Out/No Fade)
 - [x] Dynamic Stages
-- [ ] Dynamic Stages (for preview)
-- [ ] SV Skip (for preview)
+- [x] Dynamic Stages (for preview)
+- [x] SV Skip (for preview)
+- [x] Layer/Stage manager
 - [ ] Changing Note SFX
 - [ ] Custom Hold mids
 - [ ] Cycling tool note types.
@@ -31,12 +33,13 @@ Supported/Planned features:
 - [ ] More customization
 - [ ] Exporting long SV's with easings instead of keyframe spam
 - [ ] Support for unchmmws & ccmmws
-- [ ] Chart Cyanvas guides (specifically Fade-In/Fade-Out/No Fade)
 - [ ] (Possible script macros?)
 - [ ] Open source (with an open modding license)
 
 
-<img width="1280" height="858" alt="Image showcasing the editor and the preview." src="https://github.com/user-attachments/assets/b05e3c98-49c2-4ea6-85e7-1f70219dd7c1" />
+<img width="1277" height="856" alt="image" src="https://github.com/user-attachments/assets/95d8adbb-5a17-4510-aa29-28d1b201c987" />
+
+
 
 ### SV Keyframes
 These function like timescale markers, although they have a few major differences. You can place multiple keyframes on the span of 6 lanes. Another difference is the fact that you can click and drag upwards to create a "long" keyframe, which will interpolate the sv value (by whatever easing you choose). How it works is whatever value you input into the long keyframe will be the *end* value. The *start* value is the value that was before.
