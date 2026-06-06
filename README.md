@@ -79,6 +79,8 @@ I'm open to adding suggestions. Create them [here](https://github.com/Purplaxo/S
 
 ### Other
 
+Join the discord server: https://discord.gg/P6RHTAQvAw
+
 > If i haven't credited someone - sorry, please inform me.
 
 > I have not copied any code from any other tools, only used mmw as reference for a few things (with Crash5b's permission).
