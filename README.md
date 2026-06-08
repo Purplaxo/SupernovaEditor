@@ -57,6 +57,8 @@ Warns the user if there are any objects in the chart that are unsupported by the
 
 Full list of keybinds are found in the editor settings. A few actions are keybind-only, such as changing division, song speed or adjusting note size.
 
+You can hold shift while scrolling to scroll in a fancier way, and press alt to zoom in 1920div.
+
 # Downloads
 
 ⚠️ **Warning**: This tool is in its early stages of development. If you experience any bugs, please report them [here](https://github.com/Purplaxo/SupernovaEditor/issues).
@@ -72,7 +74,7 @@ I'm not sure about these steps since i haven't tested this on my own (i don't ha
 
 ### Modding
 
-> I'm not allowing any Lua code in this repository to be copied, modified, distributed, or used to create derivative works by anyone, unless i say otherwise. This will probably change in the future.
+> I'm not allowing any Lua code in this repository to be copied, modified, distributed, datamined, or used to create derivative works by anyone, unless i say otherwise. This will probably change in the future.
 > Although i grant permission to modify/replace assets (files ending in: .png .txt .scp .ttf .otf .mp3).
 
 I'm open to adding suggestions. Create them [here](https://github.com/Purplaxo/SupernovaEditor/issues) with the suggestions tag.
