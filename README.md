@@ -23,15 +23,14 @@ Supported/Planned features:
 - [x] Dynamic Stages (for preview)
 - [x] SV Skip (for preview)
 - [x] Layer/Stage manager
-- [ ] Changing Note SFX
-- [ ] Custom Hold mids
+- [x] Changing Note SFX
+- [x] Mobile support
+- [ ] Custom Slide mids
 - [ ] Cycling tool note types.
-- [ ] Mobile support
 - [ ] Performance improvements
 - [ ] Better particles (3D)
 - [ ] Better user particle editing
 - [ ] More customization
-- [ ] Exporting long SV's with easings instead of keyframe spam
 - [ ] Support for unchmmws & ccmmws
 - [ ] (Possible script macros?)
 - [ ] Open source (with an open modding license)
@@ -59,6 +58,25 @@ Full list of keybinds are found in the editor settings. A few actions are keybin
 
 You can hold shift while scrolling to scroll in a fancier way, and press alt to zoom in 1920div.
 
+# Mobile
+
+The mobile version of the chart editor is available in [Releases](https://github.com/Purplaxo/SupernovaEditor/releases). It features almost every feature from the PC version. 
+<img width="292" height="633" alt="IMG_9211" src="https://github.com/user-attachments/assets/7682fcbb-3da4-4f03-a01d-5f4d820eea13" />
+<img width="633" height="292" alt="IMG_9212" src="https://github.com/user-attachments/assets/aeb0f137-629f-4b4a-bc69-f4e5f2507e91" />
+
+If you see an issue with the lower toolbar being too low, you can configure it in the editor settings.
+
+
+### Gestures
+
+- Scrolling: Two finger up/down
+- Zooming: Two finger pinch (might not work 100% of the time)
+- Undo: Two finger tap
+- Redo: Three finger tap
+- Note properties: Double tap on the note
+- Preview: Rotate your device to landscape
+
+
 # Downloads
 
 ⚠️ **Warning**: This tool is in its early stages of development. If you experience any bugs, please report them [here](https://github.com/Purplaxo/SupernovaEditor/issues).
@@ -71,6 +89,18 @@ Linux needs to do some terminal shenanigans:
 - if opening the file doesnt work, run the appimage through the terminal
 - if THAT doesn't work, install love2d systemwide and run `love /path/to/appimage` (Love is bundled in the appimage though)
 I'm not sure about these steps since i haven't tested this on my own (i don't have linux). If you find an easier way of opening this editor, let me know.
+
+### iOS
+
+You need to sideload the `.ipa` file. Find out how to sideload apps with tools like AltStore [here](https://www.reddit.com/r/sideloaded/comments/1ak3x9t/how_to_sideload_application_on_ios_ipados/).
+
+Once you wanna use the editor filesystem, open up the app "Files" on your iPhone, and go to "On My iPhone" > "Supernova". You can find Autosaves, Exports, Audio and Charts there.
+
+### Android
+
+Open the `.apk` file found in releases. 
+
+Once you wanna use the editor filesystem, open up your file explorer, and go to "Internal storage" > "Android" > "media" > "com.nova". You can find Autosaves, Exports, Audio and Charts there.
 
 ### Modding
 
