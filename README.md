@@ -25,6 +25,7 @@ Supported/Planned features:
 - [x] Layer/Stage manager
 - [x] Changing Note SFX
 - [x] Mobile support
+- [ ] .pjsk support
 - [ ] Custom Slide mids
 - [ ] Cycling tool note types.
 - [ ] Performance improvements
