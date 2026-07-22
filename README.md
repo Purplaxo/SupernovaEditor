@@ -22,34 +22,41 @@ Supported/Planned features:
 - [x] Dynamic Stages
 - [x] Dynamic Stages (for preview)
 - [x] SV Skip (for preview)
-- [x] Layer/Stage manager
+- [x] Layer/Stage Grid/List
 - [x] Changing Note SFX
 - [x] Mobile support
+- [x] Live Co-op charting
+- [x] Directly export to UntitledCharts within the editor
 - [ ] .pjsk support
 - [ ] Custom Slide mids
 - [ ] Cycling tool note types.
-- [ ] Performance improvements
 - [ ] Better particles (3D)
 - [ ] Better user particle editing
 - [ ] More customization
 - [ ] Support for unchmmws & ccmmws
 - [ ] (Possible script macros?)
-- [ ] Open source (with an open modding license)
 
 
-<img width="1277" height="856" alt="image" src="https://github.com/user-attachments/assets/95d8adbb-5a17-4510-aa29-28d1b201c987" />
+<img width="1258" height="841" alt="image" src="https://github.com/user-attachments/assets/7b95b3ae-cf17-421e-b9da-d9bbc5cbde79" />
 
 
 
 ### SV Keyframes
-These function like timescale markers, although they have a few major differences. You can place multiple keyframes on the span of 6 lanes. Another difference is the fact that you can click and drag upwards to create a "long" keyframe, which will interpolate the sv value (by whatever easing you choose). How it works is whatever value you input into the long keyframe will be the *end* value. The *start* value is the value that was before.
+These function like timescale markers, although they have a few major differences. You can place multiple keyframes on the span of 6 lanes. Another difference is the fact that you can click and drag upwards to create a "long" keyframe, which will interpolate\* the sv value (by whatever easing you choose). How it works is whatever value you input into the long keyframe will be the *end* value. The *start* value is the value that was before, or the value that was set as the "Start Value". This SV system might change in the future so beware of that.
 
-<img width="427" height="304" alt="image" src="https://github.com/user-attachments/assets/0827b1c0-6c4d-4106-8bec-738838388d40" />
+<img width="322" height="297" alt="image" src="https://github.com/user-attachments/assets/846f6986-d7a8-4da9-95f8-1bf546ff74da" />
 
-The image above has a SV change to 0.5x, which will be instant (exactly like normal timescale marker). Then from the starting point of the long keyframe, it will interpolate from 0.5x to 1.0x. Since no filetypes support long keyframes, the editor automatically can convert keyframes to markers (you can select the division too)
+The image above has a SV change to 0.5x, which will be instant (exactly like a normal timescale marker). Then from the starting point of the long keyframe, it will interpolate from 0.5x to 1.0x. Since no filetypes support long keyframes, the editor automatically can convert keyframes to markers (you can select the division too)
+
+<img width="325" height="230" alt="image" src="https://github.com/user-attachments/assets/d3b0cf62-db4b-43ce-8014-7f49236ebb51" />
+
+The image above does the same thing as before. It interpolates from the start value (0.5x) to the end value (1x).
+
+\***Interpolation** - inserting values between one value and the other, creating a smooth transition.
 
 ### Compatibility Warning Mode (beta)
-Warns the user if there are any objects in the chart that are unsupported by the filetype the user wants to export.
+~~Warns the user if there are any objects in the chart that are unsupported by the filetype the user wants to export.~~
+This feature is currently disabled, mainly because you can't export and save as .USC, .SUS, .MMWS in the most recent version
 
 <img width="1278" height="856" alt="image" src="https://github.com/user-attachments/assets/e5e13065-4c92-4445-8b75-1b20e5103551" />
 
@@ -81,7 +88,7 @@ If you see an issue with the lower toolbar being too low, you can configure it i
 # Downloads
 
 ⚠️ **Warning**: This tool is in its early stages of development. If you experience any bugs, please report them [here](https://github.com/Purplaxo/SupernovaEditor/issues).
-> This tool was __partially__ assisted by AI for very obscure and time consuming tasks. If you don't like it, don't use it. Nobody is forcing you to. (its not like i can even do anything with free tiers lmao)
+> This tool was partially assisted by AI for very obscure and time consuming tasks. If you don't like it, don't use it. Nobody is forcing you to.
 
 You can find download files in [Releases](https://github.com/Purplaxo/SupernovaEditor/releases)
 
@@ -93,7 +100,7 @@ I'm not sure about these steps since i haven't tested this on my own (i don't ha
 
 ### iOS
 
-You need to sideload the `.ipa` file. Find out how to sideload apps with tools like AltStore [here](https://www.reddit.com/r/sideloaded/comments/1ak3x9t/how_to_sideload_application_on_ios_ipados/).
+You need to sideload the `.ipa` file. Find out how to sideload apps with tools like AltStore [here](https://www.reddit.com/r/sideloaded/comments/1ak3x9t/how_to_sideload_application_on_ios_ipados/). (Use these sideloading services at your own risk, I'm not affiliated with them.)
 
 Once you wanna use the editor filesystem, open up the app "Files" on your iPhone, and go to "On My iPhone" > "Supernova". You can find Autosaves, Exports, Audio and Charts there.
 
@@ -106,7 +113,7 @@ Once you wanna use the editor filesystem, open up your file explorer, and go to 
 ### Modding
 
 > I'm not allowing any Lua code in this repository to be copied, modified, distributed, datamined, or used to create derivative works by anyone, unless i say otherwise. This will probably change in the future.
-> Although i grant permission to modify/replace assets (files ending in: .png .txt .scp .ttf .otf .mp3).
+> Although i grant permission to modify/replace assets (only files ending in: .png .txt .scp .ttf .otf .mp3).
 
 I'm open to adding suggestions. Create them [here](https://github.com/Purplaxo/SupernovaEditor/issues) with the suggestions tag.
 
@@ -116,4 +123,4 @@ Join the discord server: https://discord.gg/P6RHTAQvAw
 
 > If i haven't credited someone - sorry, please inform me.
 
-> I have not copied any code from any other tools, only used mmw as reference for a few things (with Crash5b's permission).
+> I have not copied any code from any other tools, only used tools as reference for a few things.
