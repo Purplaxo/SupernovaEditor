@@ -1,5 +1,9 @@
 ⚠️ **SEGA has banned the usage of unofficial apps in favor of the in-game Editor. Posting any content on the internet is taken at your own risk.** (I am not affiliated with SEGA, Colorful Palette or Crypton Future Media)
 
+---
+Consider supporting me and the project! All donations are really appreciated ❤️
+
+<a href='https://ko-fi.com/Z0I624VOHF' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 # Supernova Editor
 A VSRG chart editor built on the LOVE2D framework.
 
