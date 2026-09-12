@@ -13,12 +13,14 @@ A VSRG chart editor built on the LOVE2D framework.
 Supported/Planned features:
 - [x] Windows, macOS, Linux support
 - [x] Editor Themes
-- [x] MMWS, SUS, USC, LevelData supported Importing/Exporting
+- [x] MMWS, SUS, USC, LevelData supported Importing & LevelData Exporting
 - [x] Compatibilty Warning mode
 - [x] Reimagined SV's (timescale)
+- [x] Reimagined SF's (scroll speed)
 - [x] Preview
 - [x] Layers
 - [x] Combo Text
+- [x] Judgment Preview
 - [x] Extended features
 - [x] Downwards Flicks
 - [x] Skill/Fever events
@@ -31,18 +33,14 @@ Supported/Planned features:
 - [x] Mobile support
 - [x] Live Co-op charting
 - [x] Directly export to UntitledCharts within the editor
+- [x] Better particles (3D)
 - [ ] .pjsk support
-- [ ] Custom Slide mids
 - [ ] Cycling tool note types.
-- [ ] Better particles (3D)
-- [ ] Better user particle editing
 - [ ] More customization
 - [ ] Support for unchmmws & ccmmws
 - [ ] (Possible script macros?)
 
-
-<img width="1258" height="841" alt="image" src="https://github.com/user-attachments/assets/7b95b3ae-cf17-421e-b9da-d9bbc5cbde79" />
-
+<img width="2506" height="1676" alt="Screenshot 2026-09-12 at 12 22 08" src="https://github.com/user-attachments/assets/c50ec5c0-1282-4673-885a-4e2a6d2b822d" />
 
 
 ### SV Keyframes
@@ -57,6 +55,12 @@ The image above has a SV change to 0.5x, which will be instant (exactly like a n
 The image above does the same thing as before. It interpolates from the start value (0.5x) to the end value (1x).
 
 \***Interpolation** - inserting values between one value and the other, creating a smooth transition.
+
+### SF Keyframes
+These function like SV's but they change scroll speed.
+
+<img width="632" height="467" alt="Screenshot 2026-09-12 at 12 13 13" src="https://github.com/user-attachments/assets/0ad9f459-2c59-43b9-a9d7-02141d8e9264" />
+
 
 ### Compatibility Warning Mode (beta)
 ~~Warns the user if there are any objects in the chart that are unsupported by the filetype the user wants to export.~~
@@ -73,20 +77,19 @@ You can hold shift while scrolling to scroll in a fancier way, and press alt to 
 # Mobile
 
 The mobile version of the chart editor is available in [Releases](https://github.com/Purplaxo/SupernovaEditor/releases). It features almost every feature from the PC version. 
-<img width="292" height="633" alt="IMG_9211" src="https://github.com/user-attachments/assets/7682fcbb-3da4-4f03-a01d-5f4d820eea13" />
-<img width="633" height="292" alt="IMG_9212" src="https://github.com/user-attachments/assets/aeb0f137-629f-4b4a-bc69-f4e5f2507e91" />
 
-If you see an issue with the lower toolbar being too low, you can configure it in the editor settings.
-
+<img width="292" height="633" alt="IMG_0138" src="https://github.com/user-attachments/assets/cc8f0eed-2949-41ec-ad95-85db49af1d68" />
+<img width="633" height="292" alt="IMG_0139" src="https://github.com/user-attachments/assets/2f8ab52d-d10a-4441-8644-99deec054715" />
 
 ### Gestures
 
-- Scrolling: Two finger up/down
-- Zooming: Two finger pinch (might not work 100% of the time)
+- Scrolling: Drag the play button left/right (Alternatively, two finger scrolling)
+- Zooming: Drag the MENU button left/right
 - Undo: Two finger tap
 - Redo: Three finger tap
+- Layer/Stage List: Double tap the layer/stage pill button
 - Note properties: Double tap on the note
-- Preview: Rotate your device to landscape
+- **Preview: Rotate your device to landscape**
 
 
 # Downloads
