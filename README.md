@@ -11,44 +11,26 @@ A VSRG chart editor built on the LOVE2D framework.
 
 
 Supported/Planned features:
-- [x] Windows, macOS, Linux support
-- [x] Editor Themes
-- [x] MMWS, SUS, USC, LevelData supported Importing & LevelData Exporting
-- [x] Compatibilty Warning mode
-- [x] Reimagined SV's (timescale)
-- [x] Reimagined SF's (scroll speed)
-- [x] Preview
-- [x] Layers
-- [x] Combo Text
-- [x] Judgment Preview
-- [x] Extended features
-- [x] Downwards Flicks
-- [x] Skill/Fever events
-- [x] Chart Cyanvas guides (specifically Fade-In/Fade-Out/No Fade)
-- [x] Dynamic Stages
-- [x] Dynamic Stages (for preview)
-- [x] SV Skip (for preview)
-- [x] Layer/Stage Grid/List
-- [x] Changing Note SFX
-- [x] Mobile support
+- [x] Windows, macOS, Linux, iOS, Android support
 - [x] Live Co-op charting
 - [x] Directly export to UntitledCharts within the editor
-- [x] Better particles (3D)
+- [x] MMWS, SUS, USC, LevelData supported Importing & LevelData Exporting with Compatibilty Warning mode, and new editor Chart type
+- [x] SV's (timescale) and SF's (scroll speed)
+- [x] Preview
+- [x] Layers & Dynamic Stages
+- [x] Skill/Fever events
+- [x] Editor Themes
 - [ ] .pjsk support
-- [ ] Cycling tool note types.
-- [ ] More customization
-- [ ] Support for unchmmws & ccmmws
 - [ ] (Possible script macros?)
 
-<img width="2506" height="1676" alt="Screenshot 2026-09-12 at 12 22 08" src="https://github.com/user-attachments/assets/c50ec5c0-1282-4673-885a-4e2a6d2b822d" />
-
+<img width="1918" height="1022" alt="Screenshot 2026-10-23 at 05 25 38" src="https://github.com/user-attachments/assets/c7db26a2-a1d4-49b9-8130-5683691c8c80" />
 
 ### SV Keyframes
 These function like timescale markers, although they have a few major differences. You can place multiple keyframes on the span of 6 lanes. Another difference is the fact that you can click and drag upwards to create a "long" keyframe, which will interpolate\* the sv value (by whatever easing you choose). How it works is whatever value you input into the long keyframe will be the *end* value. The *start* value is the value that was before, or the value that was set as the "Start Value". This SV system might change in the future so beware of that.
 
 <img width="322" height="297" alt="image" src="https://github.com/user-attachments/assets/846f6986-d7a8-4da9-95f8-1bf546ff74da" />
 
-The image above has a SV change to 0.5x, which will be instant (exactly like a normal timescale marker). Then from the starting point of the long keyframe, it will interpolate from 0.5x to 1.0x. Since no filetypes support long keyframes, the editor automatically can convert keyframes to markers (you can select the division too)
+The image above has a SV change to 0.5x, which will be instant (exactly like a normal timescale marker). Then from the starting point of the long keyframe, it will interpolate from 0.5x to 1.0x. Since only leveldata supports these keyframes, the editor automatically can convert keyframes to markers (you can select the division too), whenever you use a chart type that doesn't support them.
 
 <img width="325" height="230" alt="image" src="https://github.com/user-attachments/assets/d3b0cf62-db4b-43ce-8014-7f49236ebb51" />
 
@@ -63,23 +45,24 @@ These function like SV's but they change scroll speed.
 
 
 ### Compatibility Warning Mode (beta)
-~~Warns the user if there are any objects in the chart that are unsupported by the filetype the user wants to export.~~
-This feature is currently disabled, mainly because you can't export and save as .USC, .SUS, .MMWS in the most recent version
+Warns the user if there are any objects in the chart that are unsupported by the filetype the user wants to export.
 
 <img width="1278" height="856" alt="image" src="https://github.com/user-attachments/assets/e5e13065-4c92-4445-8b75-1b20e5103551" />
 
 ### Keybinds
 
-Full list of keybinds are found in the editor settings. A few actions are keybind-only, such as changing division, song speed or adjusting note size.
+Full list of keybinds are found in the editor settings.
 
 You can hold shift while scrolling to scroll in a fancier way, and press alt to zoom in 1920div.
 
 # Mobile
 
+⚠️**Before reading any further**⚠️, when you open the mobile editor for the first time, **CONFIGURE SAFE DIVISIONS** to not have UI outside of your screen borders
+
 The mobile version of the chart editor is available in [Releases](https://github.com/Purplaxo/SupernovaEditor/releases). It features almost every feature from the PC version. 
 
-<img width="292" height="633" alt="IMG_0138" src="https://github.com/user-attachments/assets/cc8f0eed-2949-41ec-ad95-85db49af1d68" />
-<img width="633" height="292" alt="IMG_0139" src="https://github.com/user-attachments/assets/2f8ab52d-d10a-4441-8644-99deec054715" />
+<img width="292" height="633" alt="IMG_0549" src="https://github.com/user-attachments/assets/b3c56b23-299d-4031-b7fc-1042a7f4c851" />
+<img width="633" height="292" alt="IMG_0550" src="https://github.com/user-attachments/assets/bf61839b-e217-4cbf-8e24-1a70dc17e832" />
 
 ### Gestures
 
@@ -90,7 +73,6 @@ The mobile version of the chart editor is available in [Releases](https://github
 - Layer/Stage List: Double tap the layer/stage pill button
 - Note properties: Double tap on the note
 - **Preview: Rotate your device to landscape**
-
 
 # Downloads
 
@@ -117,7 +99,7 @@ Open the `.apk` file found in releases.
 
 Once you wanna use the editor filesystem, open up your file explorer, and go to "Internal storage" > "Android" > "media" > "com.nova". You can find Autosaves, Exports, Audio and Charts there.
 
-### Modding
+### Modding/Licensing
 
 > I'm not allowing any Lua code in this repository to be copied, modified, distributed, datamined, or used to create derivative works by anyone, unless i say otherwise. This will probably change in the future.
 > Although i grant permission to modify/replace assets (only files ending in: .png .txt .scp .ttf .otf .mp3).
